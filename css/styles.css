@@ -101,7 +101,8 @@ h2 {
 }
 
 .handshake {
-    width:800px;
+    width: 100%;
+    max-width: 800px; 
     margin-bottom: 50px;
     border-radius: 2%;
 }
