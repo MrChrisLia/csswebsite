@@ -12,12 +12,12 @@ body {
 
 .middle-container {
     background-color: #E9F8F9;
-
 }
 
 .bottom-container {
-    background-color: #E9F8F9;
-
+    background-color: #0E8388;
+    padding-bottom: 30px;
+    margin-bottom: 0;
 }
 
 h1 {
@@ -85,10 +85,13 @@ h2 {
 
 .btn {
     width: 100px;
-    border-radius: 8;
+    border-radius: 8px; /* added px unit */
     text-decoration: none;
     color: black;
-}
+    margin-bottom: 40px;
+    margin-top: 20px; /* add margin-top to push button down */
+  }
+  
 
 #linkedin-img {
     width: 50px;
@@ -116,4 +119,8 @@ hr {
     border: dotted grey 6px;
     border-bottom: none;
     width: 5%
+}
+
+.contact-me {
+    padding-bottom: 20px;
 }
