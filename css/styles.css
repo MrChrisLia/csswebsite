@@ -25,10 +25,10 @@ h1 {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 30%;
     margin: 0;
     font-size: 4.005rem;
     white-space: nowrap;
+    text-align: center; /* Center the text */
   }
 
 h2 {
